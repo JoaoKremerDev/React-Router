@@ -1,70 +1,20 @@
-# Getting Started with Create React App
+<h1> Projeto de Exemplo do React Router </h1>
+<p>Este é um projeto simples de exemplo do React Router, com o objetivo de mostrar como utilizar os principais recursos desse pacote, como o BrowserRouter, Routes, Link, NavLink, useNavigate, useParams e useSearchParams.</p>
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+<h2>Como executar: </h2>
+<ul> 
+<li>Clone o repositório para a sua máquina</li>
+<liCertifique-se de que o Node.js e o NPM estão instalados em sua máquina.</li>
+<li>Execute o servidor fornecido digitando npm start no terminal</li>
+<li>No diretório do projeto, execute npm install para instalar as dependências necessárias</li>
+<liAbra um segundo terminal e execute a aplicação React digitando npm run start-app no diretório do projeto.></li>
+<liAbra o navegador e acesse http://localhost:3001/></li>
+</ul>
 
-## Available Scripts
+<h2>Como funciona</h2>
+<p>A página inicial contém uma lista de itens obtidos de um arquivo JSON localizado em http://localhost:3000/produtos. Os itens podem ser filtrados por nome usando a barra de pesquisa localizada no canto superior direito da página. Clicando em qualquer um dos itens da lista, você será levado para uma página de detalhes do item correspondente, usando o ID do item como parâmetro na URL.</p>
 
-In the project directory, you can run:
+<p>A navegação entre as páginas é gerenciada pelo React Router. O BrowserRouter é usado para fornecer a funcionalidade de roteamento, enquanto o Routes é usado para definir as rotas disponíveis. O Link e o NavLink são usados para criar links clicáveis entre as páginas, enquanto o useNavigate é usado para programaticamente navegar entre as páginas. O useParams é usado para acessar os parâmetros da URL, enquanto o useSearchParams é usado para acessar os parâmetros de pesquisa na URL.</p>
 
-### `npm start`
-
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
-
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
-
-### `npm test`
-
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+<h2>Conclusão</h2>
+Este projeto é apenas um exemplo básico do uso do React Router. Há muitas outras funcionalidades que podem ser exploradas e muitas possibilidades de personalização para atender às necessidades específicas de cada projeto. Esse projeto me ensinou bastante sobre a utilização do React Router e alguns dos seus conceitos mais importantes.
