@@ -1,0 +1,64 @@
+{
+    "produtos": [
+      {
+        "id": 1,
+        "produto": "Teclado",
+        "preco": "120,00",
+        "descricao": "Teclado de alta qualidade com layout ABNT2, iluminação e conexão USB. É perfeito para quem busca um teclado confortável e durável."
+      },
+      {
+        "id": 2,
+        "produto": "Mouse",
+        "preco": "20,00",
+        "descricao": "Mouse com design ergonômico e conexão USB. É ideal para uso diário em casa ou no escritório."
+      },
+      {
+        "id": 3,
+        "produto": "Gabinete",
+        "preco": "80,00",
+        "descricao": "Gabinete para computador com fonte de alimentação inclusa e espaço para até 3 HDs. Possui design moderno e elegante."
+      },
+      {
+        "id": 4,
+        "produto": "HDMI",
+        "preco": "8,00",
+        "descricao": "Cabo HDMI de 1,5 metros de comprimento. Permite a transmissão de áudio e vídeo em alta qualidade."
+      },
+      {
+        "id": 5,
+        "produto": "Monitor 23\"",
+        "preco": "950,00",
+        "descricao": "Monitor LED de 23 polegadas com resolução Full HD e tempo de resposta de 5ms. Possui conexões HDMI, VGA e DVI."
+      },
+      {
+        "id": 6,
+        "produto": "Caixa de Som",
+        "preco": "150,00",
+        "descricao": "Caixa de som estéreo com potência de 10W RMS. Possui conexão P2 e é compatível com computadores, smartphones e tablets."
+      },
+      {
+        "id": 7,
+        "produto": "Headset",
+        "preco": "200,00",
+        "descricao": "Fone de ouvido com microfone integrado e conexão USB. Possui almofadas auriculares confortáveis e é ideal para jogos e videoconferências."
+      },
+      {
+        "id": 8,
+        "produto": "Webcam",
+        "preco": "250,00",
+        "descricao": "Webcam de alta definição com resolução Full HD e microfone integrado. É ideal para videoconferências e streaming de vídeo."
+      },
+      {
+        "id": 9,
+        "produto": "HD Externo 1TB",
+        "preco": "350,00",
+        "descricao": "Disco rígido externo de 1TB de capacidade. Possui conexão USB 3.0 e é compatível com Windows e Mac."
+      },
+      {
+        "id": 10,
+        "produto": "Roteador Wi-Fi",
+        "preco": "200,00",
+        "descricao": "Roteador Wi-Fi de alta velocidade com antenas externas e alcance de até 100 metros. Possui suporte a IPv6 e QoS."
+      }
+    ]
+}

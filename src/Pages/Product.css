@@ -1,0 +1,8 @@
+
+.product-container {
+    border: 1px solid #000000;
+    border-radius: 5px;
+    padding: 10px;
+    max-width: 200px;
+    margin: 0 auto;
+}
